@@ -1,0 +1,120 @@
+body {
+	background-color: #0c0c0c;
+}
+
+.l-content {
+	position: relative;
+	width: 1440px;
+	max-width: 100%;
+	height: 100%;
+	margin:  auto;
+	padding: 1px;
+}
+
+/* Логотип */
+
+.head {
+	position: relative;
+	top: 12px;
+}
+
+.head__logo {
+	position: relative;
+	float: left;
+	width:50%;
+	height: 100%;
+}
+
+.head__logo_item {
+	text-decoration: none;
+	color:white;
+}
+
+.head__logo_img {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 15px;
+	
+}
+
+.head p {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+/* Раскрывающееся меню */
+
+.menu {
+	position: relative;
+    float: left;
+	width:49%;
+	height: 100%;
+	color: white;
+}
+
+.menu__list {
+	top: 15px;
+	width: 30px;
+	height: 50px;
+	position: relative;
+	float: right;
+}
+
+.menu__list:before {
+	content: "";
+	width: 25px;
+	height: 2px;
+	position: relative;
+	float: right;
+	background-color: white;
+}
+
+.menu__list:after {
+	content: "";
+	width: 25px;
+	height: 2px;
+	position: relative;
+	float: right;
+	top: 10px;
+	background-color: white;
+}
+
+.menu span {
+	content: "";
+	width: 15px;
+	height: 2px;
+	position: relative;
+	float: right;
+	right:5px;
+	top: 5px;
+	background-color: white;
+}
+
+/* Навигационная панель */
+
+.l-side-bar {
+	position: relative;
+	width: 62px;
+	height: 566px;
+	top: 90px;
+	color: white;
+	
+}
+.side-bar:before {
+	position: absolute;
+	width: 2px;
+	height: 70%;
+	background-color: white;
+}
+
+.side-bar li {
+	position: relative;
+    
+}
+.side-bar li:before {
+	content: "01";
+	position: absolute;
+	left: -33px;
+
+}
+
